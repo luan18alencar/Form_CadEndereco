@@ -20,4 +20,7 @@
 
 ## Funções
 
-    
+![imagem](funcao1.png)
+![imagem](funcao2.png)
+![imagem](funcao3.png)
+![imagem](funcao4.png)
