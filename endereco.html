@@ -3,52 +3,52 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Endereço</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>cadastro endereço</title>
+    <meta name='Cadastro endereço' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Cadastro de Endereço</h1>
-    <div class = "container">
-    <form class="row g-3">
-        <!--ESSA DIV É FEITA PARA COLOCAR AS INFORMAÇÕES DO CEP-->
-        <div class="col-md-8">
-            <label for="inputZip" class="form-label">CEP</label>
-            <input type="text" class="form-control" id="cep">
+    <div class="container col-6">
+        <form action="" class="form-control">
+            <label for="">cep</label>
+            <input input type="text" id="cep" class="form-control"><br>
+            <div class="row">
+                <div class="col">
+            <label for="">Rua</label>
+            <input input type="text" id="rua" class="form-control">
+                </div>
+                <div class="col">
+            <label for="">N°</label>
+            <input input type="text" id="numero" class="form-control">
+                </div>  
+                <div class="col">
+                <label for="">Bairro</label>
+            <input input type="text" id="bairro" class="form-control">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+            <label for="">Complemento</label>
+            <input input type="text" id="complemento" class="form-control">
+                </div>
+                <div class="col">
+            <label for="">Cidade</label>
+            <input input type="text" id="cidade" class="form-control">
+                </div>
+                <div class="col">
+            <label for="">Estado</label>
+            <input input type="text" id="estado" class="form-control">
+                </div>
         </div>
-        <!-- ESSA DIV É FEITA PARA APARECER A RUA-->
-        <div class="col-md-4">
-            <label for="inputAddress" class="form-label">Rua</label>
-            <input type="text" class="form-control" id="rua" placeholder="Ex: Rua ">
-        </div>
-        <!-- ESSA DIV É FEITA PARA APARECER O NUMERO-->
-        <div class="col-2">
-            <label for="inputAddress" class="form-label">Número</label>
-            <input type="text" class="form-control" id="numero">
-        </div>
-        <!-- ESSA DIV É FEITA PARA APARECER O NUMERO-->
-        <div class="col-md-4">
-            <label for="inputAddress2" class="form-label">Bairro</label>
-            <input type="text" class="form-control" id="bairro" placeholder="Apartamento">
-        </div>
-        <!-- ESSA DIV É FEITA PARA APARECER O NUMERO-->
-        <div class="col-md-4">
-            <label for="inputCity" class="form-label">Cidade</label>
-            <input type="text" class="form-control" id="cidade">
-        </div>
-        <!-- ESSA DIV É FEITA PARA APARECER O NUMERO-->
-        <div class="col-md-4">
-            <label for="inputState" class="form-label">Estado</label>
-            <input type="text" id="estado" class="form-control">
-        </div>
-        
-        <div class="col-12">
-            <button type="submit" class="btn btn-primary">Cadastrar</button>
-        </div>
-        </div>
-    </form>
+        <br>
+            <button type="button" onclick="" class="btn btn-warning">entrar</button>
+        </form>
+    </div>
  
-    <script src='script.js'></script>
+    <script src='main.js'></script>
 </body>
 </html>
+ 
+ 
