@@ -20,6 +20,7 @@
 ## Modo Restrito ('use strict')
 
 ![imagem](img/userestric.png)
+
     Objetivo: Ativa o modo restrito no JavaScript, impondo regras mais rígidas para a escrita do código e ajudando a evitar erros comuns.
     Benefícios:
     Evita a criação de variáveis globais por acidente.
@@ -39,7 +40,9 @@
 #### Função eNumero: 
 
     Verifica se uma string contém apenas números. Utiliza uma expressão regular para testar se todos os caracteres da string são dígitos.
+
 ![imagem](img/funcao3.png)
+
 #### Função cepValido:
 
     Verifica se um CEP é válido.
@@ -59,18 +62,22 @@
 
 ### Função pesquisarCep:
 ![imagem](img/funcao5.png)
+
     Realiza a consulta à API ViaCEP e preenche o formulário com os dados obtidos.
     
 ### limparFormulario:
 ![imagem](img/funcao6.png)
+
     Chama a função limparFormulario.
 
 ### Monta a URL da consulta: 
 ![imagem](img/funcao7.png)
+
     Concatena a URL base da API com o CEP informado.
 
 ### Realiza a requisição:
  ![imagem](img/funcao8.png)
+ 
     Utiliza o método fetch para fazer uma requisição à API.
     Converte a resposta para formato JSON.
 
