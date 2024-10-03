@@ -2,8 +2,6 @@
 # Indice
 [funcionalidades](#funcionalidades)
 
-[variaveis](#variáveis)
-
 [funcoes](#funções)
 
 [tecnologias_utilizadas](#tecnologias-utilizadas)
@@ -12,7 +10,6 @@
 
 [autor](#autor)
 
-[mudanças](mudanças-no-projeto)
 
 ## Funcionalidades
 
@@ -105,6 +102,8 @@
 #### Expressões Regulares: 
 
     A expressão regular ^[0-9]+$ é usada para verificar se uma string contém apenas dígitos.
+    
+![imagem](img/espresao.png)
 
 
 ## Tecnologias utilizadas:
