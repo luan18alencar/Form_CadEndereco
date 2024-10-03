@@ -6,7 +6,7 @@
 
 [tecnologias_utilizadas](#tecnologias-utilizadas)
 
-[imagens_demonstrativas](#imagens-demonstrativos)
+[gif_demonstrativo](#gif-demonstrativo)
 
 [autor](#autor)
 
@@ -115,6 +115,9 @@
 * [<code><img height="32" src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VisualStudio"/></code>](https://code.visualstudio.com/)
 * [<code><img height="32" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Font Awesome "/></code>](https://fontawesome.com/versions)
  
+## gif demonstrativo:
+
+![gif](img/IMGG.gif)
 
 ## Autor:
 |  [<img loading="lazy" src="https://avatars.githubusercontent.com/u/140835172?v=4 " width=115><br><sub>Luan Alencar</sub>](https://github.com/luan18alencar) |  
