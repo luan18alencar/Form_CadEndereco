@@ -19,6 +19,7 @@
  
 ## Modo Restrito ('use strict')
 
+![imagem](img/userestric.png)
     Objetivo: Ativa o modo restrito no JavaScript, impondo regras mais rígidas para a escrita do código e ajudando a evitar erros comuns.
     Benefícios:
     Evita a criação de variáveis globais por acidente.
